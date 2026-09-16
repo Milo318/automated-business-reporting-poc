@@ -1,0 +1,16 @@
+lead_id,company,qualified,status
+MOCK-L001,Aurora Health,true,won
+MOCK-L002,Beacon Works,true,lost
+MOCK-L003,Cedar Finance,true,open
+MOCK-L004,Delta Mobility,true,won
+MOCK-L005,Elm Software,false,open
+MOCK-L006,Fjord Energy,true,lost
+MOCK-L007,Granite Media,true,won
+MOCK-L008,Helio Commerce,true,open
+MOCK-L009,Ivory Legal,false,lost
+MOCK-L010,Kite Manufacturing,true,won
+MOCK-L011,Lumen Travel,true,lost
+MOCK-L012,Maple Consulting,true,open
+MOCK-L013,Nova Education,true,won
+MOCK-L014,Oak Research,false,open
+MOCK-L015,Pulse Telecom,true,lost

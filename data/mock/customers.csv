@@ -1,0 +1,11 @@
+customer_id,name,status,mrr_eur,started_in_period
+MOCK-C001,Northstar Retail,active,1200.00,false
+MOCK-C002,Harbor Systems,active,900.00,false
+MOCK-C003,Clearview Labs,active,475.00,true
+MOCK-C004,Orbit Logistics,active,1600.00,false
+MOCK-C005,Meadow Foods,churned,0.00,false
+MOCK-C006,Signal Support,active,625.00,true
+MOCK-C007,Juniper Studio,active,445.00,true
+MOCK-C008,Alpine Data,active,805.00,false
+MOCK-C009,Blue Peak Hosting,active,550.00,false
+MOCK-C010,Quiet Systems,churned,0.00,false

@@ -1,0 +1,24 @@
+{
+  "synthetic_data": true,
+  "runs": 500,
+  "calculation_time_ms": 47.045,
+  "reports_per_second": 10628.1,
+  "deterministic_replay_percent": 100.0,
+  "ledger_reconciled": true,
+  "reconciliation_difference_eur": "0.00",
+  "kpi_snapshot": {
+    "gross_revenue": "14950.00",
+    "refunds": "300.00",
+    "net_revenue": "14650.00",
+    "active_mrr": "6600.00",
+    "new_customers": 3,
+    "churned_customers": 2,
+    "qualified_leads": 12,
+    "won_leads": 5,
+    "lead_conversion_percent": 41.67,
+    "tickets_total": 10,
+    "tickets_resolved": 9,
+    "tickets_within_sla": 6,
+    "sla_compliance_percent": 66.67
+  }
+}
