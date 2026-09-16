@@ -18,7 +18,7 @@ class ReportingTests(unittest.TestCase):
         self.assertEqual(metrics.gross_revenue, Decimal("14950.00"))
         self.assertEqual(metrics.refunds, Decimal("300.00"))
         self.assertEqual(metrics.net_revenue, Decimal("14650.00"))
-        self.assertTrue(reconciliation(DATA, metrics)["reconciled"])
+        self.assertTrue(reconciliation(metrics)["reconciled"])
 
     def test_operational_metrics(self) -> None:
         metrics = calculate_metrics(DATA)
@@ -49,9 +49,10 @@ class ReportingTests(unittest.TestCase):
         self.assertEqual(outcome.source, "deterministic_self_repair")
         self.assertEqual(outcome.analysis["current"], case.truth["current"])
 
-    def test_autonomous_benchmark_has_120_periods(self) -> None:
-        cases = generate_cases(120)
-        self.assertEqual(len(cases), 120)
+    def test_autonomous_benchmark_has_200_periods(self) -> None:
+        cases = generate_cases(200)
+        self.assertEqual(len(cases), 200)
+        self.assertEqual(sum(case.challenge != "standard" for case in cases), 100)
         self.assertEqual(cases[0].truth, primary_change(cases[0].previous, cases[0].current))
 
 

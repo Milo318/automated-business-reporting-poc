@@ -5,8 +5,8 @@ import os
 import urllib.request
 
 
-def generate_executive_summary(metrics: dict[str, object]) -> str:
-    """Stage 2 narrates the locked KPI payload; it does not calculate financial values."""
+def propose_analysis(change: dict[str, object]) -> dict[str, object]:
+    """Narrate a deterministically selected change; policy code verifies every claim."""
     api_key = os.environ.get("LLM_API_KEY")
     if not api_key:
         raise RuntimeError("Set LLM_API_KEY before requesting an AI summary")
@@ -15,9 +15,10 @@ def generate_executive_summary(metrics: dict[str, object]) -> str:
     payload = {
         "model": model,
         "temperature": 0,
+        "response_format": {"type": "json_object"},
         "messages": [
-            {"role": "system", "content": "Write a concise three-bullet executive summary. Use only supplied metrics. Never recalculate or invent values."},
-            {"role": "user", "content": json.dumps(metrics, sort_keys=True)},
+            {"role": "system", "content": "Return JSON with metric, direction, previous, current, summary, and statement_type. Copy all numeric claims exactly from the supplied verified change. Set statement_type to verified_fact."},
+            {"role": "user", "content": json.dumps(change, sort_keys=True)},
         ],
     }
     request = urllib.request.Request(
@@ -25,4 +26,7 @@ def generate_executive_summary(metrics: dict[str, object]) -> str:
         headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}, method="POST",
     )
     with urllib.request.urlopen(request, timeout=45) as response:
-        return str(json.load(response)["choices"][0]["message"]["content"])
+        result = json.loads(json.load(response)["choices"][0]["message"]["content"])
+    if not isinstance(result, dict):
+        raise ValueError("AI analysis must be a JSON object")
+    return result

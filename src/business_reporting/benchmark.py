@@ -22,7 +22,7 @@ def main() -> None:
         latest = calculate_metrics(args.data)
         digests.append(sha256(json.dumps(latest.to_dict(), sort_keys=True).encode()).hexdigest())
     elapsed = perf_counter() - started
-    check = reconciliation(args.data, latest)
+    check = reconciliation(latest)
     result = {
         "synthetic_data": True,
         "runs": args.runs,

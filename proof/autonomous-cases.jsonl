@@ -1,120 +1,200 @@
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-000", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-001", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-002", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-003", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-004", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-005", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-006", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-007", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-008", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-009", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-010", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-011", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-012", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-013", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-014", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-015", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-016", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-017", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-018", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-019", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-020", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-021", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-022", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-023", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-024", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-025", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-026", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-027", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-028", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-029", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-030", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-031", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-032", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-033", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-034", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-035", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-036", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-037", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-038", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-039", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "REPORT-040", "decision_source": "deterministic_self_repair", "metric": "net_revenue", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-041", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-042", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-043", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-044", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-045", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-046", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-047", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-048", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-049", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-050", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-051", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-052", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-053", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-054", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-055", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-056", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-057", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-058", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-059", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-060", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-061", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-062", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-063", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-064", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-065", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-066", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-067", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-068", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-069", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-070", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-071", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-072", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-073", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-074", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-075", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-076", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-077", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-078", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-079", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-080", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-081", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-082", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-083", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-084", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-085", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-086", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-087", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-088", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-089", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-090", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-091", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-092", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-093", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-094", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-095", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-096", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-097", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-098", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-099", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-100", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-101", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-102", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-103", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-104", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-105", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-106", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-107", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-108", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-109", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-110", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-111", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-112", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-113", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-114", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-115", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-116", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-117", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-118", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-119", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-000", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-001", "challenge": "near_tie", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-002", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-003", "challenge": "zero_baseline", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-004", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-005", "challenge": "negative_baseline", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-006", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-007", "challenge": "all_metrics_flat", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-008", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-009", "challenge": "near_tie", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "REPORT-010", "challenge": "standard", "decision_source": "deterministic_self_repair", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-011", "challenge": "zero_baseline", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-012", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-013", "challenge": "negative_baseline", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-014", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-015", "challenge": "all_metrics_flat", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-016", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-017", "challenge": "near_tie", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-018", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-019", "challenge": "zero_baseline", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-020", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-021", "challenge": "negative_baseline", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-022", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-023", "challenge": "all_metrics_flat", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-024", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-025", "challenge": "near_tie", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-026", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-027", "challenge": "zero_baseline", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-028", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-029", "challenge": "negative_baseline", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-030", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "REPORT-031", "challenge": "all_metrics_flat", "decision_source": "deterministic_self_repair", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-032", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-033", "challenge": "near_tie", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-034", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-035", "challenge": "zero_baseline", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-036", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-037", "challenge": "negative_baseline", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-038", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-039", "challenge": "all_metrics_flat", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-040", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-041", "challenge": "near_tie", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-042", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-043", "challenge": "zero_baseline", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-044", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-045", "challenge": "negative_baseline", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-046", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "REPORT-047", "challenge": "all_metrics_flat", "decision_source": "deterministic_self_repair", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-048", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-049", "challenge": "near_tie", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-050", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-051", "challenge": "zero_baseline", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-052", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-053", "challenge": "negative_baseline", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-054", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-055", "challenge": "all_metrics_flat", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-056", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-057", "challenge": "near_tie", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-058", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-059", "challenge": "zero_baseline", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-060", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-061", "challenge": "negative_baseline", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-062", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-063", "challenge": "all_metrics_flat", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-064", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-065", "challenge": "near_tie", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-066", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-067", "challenge": "zero_baseline", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-068", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-069", "challenge": "negative_baseline", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-070", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "REPORT-071", "challenge": "all_metrics_flat", "decision_source": "deterministic_self_repair", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-072", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-073", "challenge": "near_tie", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-074", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-075", "challenge": "zero_baseline", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-076", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-077", "challenge": "negative_baseline", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-078", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-079", "challenge": "all_metrics_flat", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-080", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-081", "challenge": "near_tie", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-082", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-083", "challenge": "zero_baseline", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-084", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-085", "challenge": "negative_baseline", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-086", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "REPORT-087", "challenge": "all_metrics_flat", "decision_source": "deterministic_self_repair", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-088", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-089", "challenge": "near_tie", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-090", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "REPORT-091", "challenge": "zero_baseline", "decision_source": "deterministic_self_repair", "metric": "sla_compliance_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-092", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-093", "challenge": "negative_baseline", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-094", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "REPORT-095", "challenge": "all_metrics_flat", "decision_source": "deterministic_self_repair", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-096", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-097", "challenge": "near_tie", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-098", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-099", "challenge": "zero_baseline", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-100", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-101", "challenge": "negative_baseline", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-102", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-103", "challenge": "all_metrics_flat", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-104", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-105", "challenge": "near_tie", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-106", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-107", "challenge": "zero_baseline", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-108", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-109", "challenge": "negative_baseline", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-110", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-111", "challenge": "all_metrics_flat", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-112", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-113", "challenge": "near_tie", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-114", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-115", "challenge": "zero_baseline", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-116", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-117", "challenge": "negative_baseline", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-118", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-119", "challenge": "all_metrics_flat", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-120", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-121", "challenge": "near_tie", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-122", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-123", "challenge": "zero_baseline", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-124", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-125", "challenge": "negative_baseline", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-126", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-127", "challenge": "all_metrics_flat", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-128", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-129", "challenge": "near_tie", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-130", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-131", "challenge": "zero_baseline", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-132", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-133", "challenge": "negative_baseline", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-134", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-135", "challenge": "all_metrics_flat", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-136", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-137", "challenge": "near_tie", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-138", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-139", "challenge": "zero_baseline", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-140", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-141", "challenge": "negative_baseline", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-142", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-143", "challenge": "all_metrics_flat", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-144", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-145", "challenge": "near_tie", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-146", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-147", "challenge": "zero_baseline", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-148", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-149", "challenge": "negative_baseline", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-150", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-151", "challenge": "all_metrics_flat", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-152", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-153", "challenge": "near_tie", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-154", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-155", "challenge": "zero_baseline", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-156", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-157", "challenge": "negative_baseline", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-158", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-159", "challenge": "all_metrics_flat", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-160", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-161", "challenge": "near_tie", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-162", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-163", "challenge": "zero_baseline", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-164", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-165", "challenge": "negative_baseline", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-166", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "REPORT-167", "challenge": "all_metrics_flat", "decision_source": "deterministic_self_repair", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-168", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-169", "challenge": "near_tie", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-170", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-171", "challenge": "zero_baseline", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-172", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-173", "challenge": "negative_baseline", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-174", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "REPORT-175", "challenge": "all_metrics_flat", "decision_source": "deterministic_self_repair", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "REPORT-176", "challenge": "standard", "decision_source": "deterministic_self_repair", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "REPORT-177", "challenge": "near_tie", "decision_source": "deterministic_self_repair", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "REPORT-178", "challenge": "standard", "decision_source": "deterministic_self_repair", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-179", "challenge": "zero_baseline", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-180", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-181", "challenge": "negative_baseline", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-182", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-183", "challenge": "all_metrics_flat", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-184", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-185", "challenge": "near_tie", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-186", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-187", "challenge": "zero_baseline", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-188", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-189", "challenge": "negative_baseline", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "REPORT-190", "challenge": "standard", "decision_source": "deterministic_self_repair", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "REPORT-191", "challenge": "all_metrics_flat", "decision_source": "deterministic_self_repair", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-192", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-193", "challenge": "near_tie", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-194", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-195", "challenge": "zero_baseline", "decision_source": "ai", "metric": "sla_compliance_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-196", "challenge": "standard", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-197", "challenge": "negative_baseline", "decision_source": "ai", "metric": "active_mrr", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-198", "challenge": "standard", "decision_source": "ai", "metric": "lead_conversion_percent", "numbers_grounded": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "REPORT-199", "challenge": "all_metrics_flat", "decision_source": "ai", "metric": "net_revenue", "numbers_grounded": true}

@@ -1,8 +1,8 @@
 {
   "synthetic_data": true,
   "runs": 500,
-  "calculation_time_ms": 47.045,
-  "reports_per_second": 10628.1,
+  "calculation_time_ms": 45.888,
+  "reports_per_second": 10896.2,
   "deterministic_replay_percent": 100.0,
   "ledger_reconciled": true,
   "reconciliation_difference_eur": "0.00",

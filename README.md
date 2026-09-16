@@ -14,24 +14,27 @@ A proof of concept that combines payment, customer, lead, and support-ticket dat
 
 The upgraded workflow calculates KPI changes deterministically, selects the primary anomaly, and asks a live model to produce a grounded narrative. A numeric verifier checks the selected metric, direction, previous value, and current value before automatic publication. Failed grounding is replaced with a deterministic verified statement rather than sent for approval.
 
-The committed [live-model benchmark](proof/autonomous-benchmark.json) and [120 case-level publication decisions](proof/autonomous-cases.jsonl) were generated with `granite4.1:3b` through Ollama:
+The committed [live-model benchmark](proof/autonomous-benchmark.json) and [200 case-level publication decisions](proof/autonomous-cases.jsonl) were generated with `granite4.1:3b` through Ollama:
+
+> **How to read 100%:** the model alone grounded 186 of 200 narratives correctly. The final 200 of 200 result belongs to the complete system after independent numeric verification and 14 automatic replacements. Expected outcomes are used for scoring only, not supplied to the runtime controller.
 
 | Autonomous acceptance check | Result |
 |---|---:|
-| Reporting periods | 120 |
-| Raw AI narratives correctly grounded | 119 / 120 |
-| Automatic self-repairs | 1 |
-| Grounded publications | 120 / 120 |
-| Approval rate | **100%** |
+| Reporting periods | 200 |
+| Raw AI narratives correctly grounded | 186 / 200 |
+| Automatic self-repairs | 14 |
+| Numeric edge-case stress periods | 100 / 100 approved |
+| Grounded publications | 200 / 200 |
+| Final system approval rate | **100%** |
 | Human approvals | **0** |
 
 ```bash
-python -m business_reporting.autonomous_benchmark --cases 120 --model granite4.1:3b
+python -m business_reporting.autonomous_benchmark --cases 200 --model granite4.1:3b
 ```
 
 Reproduction requires a running Ollama service with the selected model installed.
 
-AI does not calculate the KPIs or choose arbitrary facts. The deterministic layer supplies the primary metric, and publication is allowed only when every numeric claim matches the locked dataset.
+Half of the suite uses near-tied KPI changes, zero or negative baselines, and completely flat periods. AI does not calculate the KPIs or choose arbitrary facts. The deterministic layer supplies the primary metric, and publication is allowed only when every numeric claim matches the locked dataset.
 
 ## Proof of work
 
@@ -95,11 +98,11 @@ python -m business_reporting.cli --ai
 
 ## Evidence map
 
-- [`data/mock/`](data/mock/) — four labeled synthetic operational datasets
+- [`data/mock/`](data/mock/) — four labeled synthetic operational datasets and a labeled previous-period KPI snapshot
 - [`tests/test_reporting.py`](tests/test_reporting.py) — financial, operational, and HTML-output assertions
 - [`proof/benchmark.json`](proof/benchmark.json) — replay and reconciliation evidence
 - [`proof/autonomous-benchmark.json`](proof/autonomous-benchmark.json) — live-model publication summary
-- [`proof/autonomous-cases.jsonl`](proof/autonomous-cases.jsonl) — all 120 publication decisions
+- [`proof/autonomous-cases.jsonl`](proof/autonomous-cases.jsonl) — all 200 publication decisions
 - [`proof/portfolio-card.png`](proof/portfolio-card.png) — portfolio-ready evidence image
 - [GitHub Actions workflow](.github/workflows/ci.yml) — repeatable checks on every push
 

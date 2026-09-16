@@ -12,6 +12,7 @@ class Metrics:
     gross_revenue: Decimal
     refunds: Decimal
     net_revenue: Decimal
+    ledger_sum: Decimal
     active_mrr: Decimal
     new_customers: int
     churned_customers: int
@@ -25,6 +26,7 @@ class Metrics:
 
     def to_dict(self) -> dict[str, object]:
         result = asdict(self)
+        result.pop("ledger_sum")
         for key in ("gross_revenue", "refunds", "net_revenue", "active_mrr"):
             result[key] = f"{result[key]:.2f}"
         return result
@@ -55,6 +57,7 @@ def calculate_metrics(data_dir: Path) -> Metrics:
         gross_revenue=gross,
         refunds=refunds,
         net_revenue=gross - refunds,
+        ledger_sum=sum((Decimal(row["amount_eur"]) for row in payments), Decimal("0")),
         active_mrr=active_mrr,
         new_customers=sum(row["started_in_period"] == "true" for row in customers),
         churned_customers=sum(row["status"] == "churned" for row in customers),
@@ -68,8 +71,6 @@ def calculate_metrics(data_dir: Path) -> Metrics:
     )
 
 
-def reconciliation(data_dir: Path, metrics: Metrics) -> dict[str, object]:
-    payments = read_csv(data_dir / "payments.csv")
-    ledger_sum = sum((Decimal(row["amount_eur"]) for row in payments), Decimal("0"))
-    difference = metrics.net_revenue - ledger_sum
-    return {"ledger_sum_eur": f"{ledger_sum:.2f}", "reported_net_revenue_eur": f"{metrics.net_revenue:.2f}", "difference_eur": f"{difference:.2f}", "reconciled": difference == 0}
+def reconciliation(metrics: Metrics) -> dict[str, object]:
+    difference = metrics.net_revenue - metrics.ledger_sum
+    return {"ledger_sum_eur": f"{metrics.ledger_sum:.2f}", "reported_net_revenue_eur": f"{metrics.net_revenue:.2f}", "difference_eur": f"{difference:.2f}", "reconciled": difference == 0}
