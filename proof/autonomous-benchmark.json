@@ -1,0 +1,22 @@
+{
+  "benchmark": "autonomous_kpi_analysis_v1",
+  "live_model": true,
+  "model": "granite4.1:3b",
+  "generated_at_utc": "2026-09-16T07:56:30.242625+00:00",
+  "synthetic_data": true,
+  "benchmark_cases": 120,
+  "minimum_required_cases": 100,
+  "ai_direct_passed": 119,
+  "ai_direct_pass_rate_percent": 99.17,
+  "final_approved": 120,
+  "approval_rate_percent": 100.0,
+  "required_approval_rate_percent": 95.0,
+  "acceptance_gate_passed": true,
+  "manual_approvals_required": 0,
+  "automatic_self_repairs": 1,
+  "grounded_publications": 120,
+  "elapsed_seconds": 501.713,
+  "prompt_tokens": 19610,
+  "completion_tokens": 7472,
+  "case_generator_sha256": "514775e19c64ae8fcba5ea2d8c97713c13f6a49470580934147c36e3348c475b"
+}

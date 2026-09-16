@@ -10,6 +10,7 @@ requires-python = ">=3.11"
 
 [project.scripts]
 business-report = "business_reporting.cli:main"
+report-autonomy-benchmark = "business_reporting.autonomous_benchmark:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
