@@ -6,6 +6,8 @@
 
 A proof of concept that combines payment, customer, lead, and support-ticket data into a decision-ready HTML report. Financial calculations reconcile against the input ledger, operational KPIs are repeatable, and AI can optionally narrate already-locked metrics.
 
+**Public repository:** https://github.com/Milo318/automated-business-reporting-poc
+
 > **Data notice:** every payment, company, lead, and support ticket is fictional mock data. The generated report visibly carries the same disclosure.
 
 ## Proof of work
