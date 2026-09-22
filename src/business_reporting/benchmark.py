@@ -15,12 +15,16 @@ def main() -> None:
     parser.add_argument("--runs", type=int, default=500)
     parser.add_argument("--output", type=Path, default=Path("proof/benchmark.json"))
     args = parser.parse_args()
+    if args.runs < 1:
+        parser.error("--runs must be positive")
     started = perf_counter()
     digests = []
     latest = None
     for _ in range(args.runs):
         latest = calculate_metrics(args.data)
-        digests.append(sha256(json.dumps(latest.to_dict(), sort_keys=True).encode()).hexdigest())
+        digests.append(
+            sha256(json.dumps(latest.to_dict(), sort_keys=True).encode()).hexdigest()
+        )
     elapsed = perf_counter() - started
     check = reconciliation(latest)
     result = {

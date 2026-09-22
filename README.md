@@ -1,113 +1,70 @@
-# Autonomous Business KPI Reporting
+# Verified Business KPI Reporting
 
-![Proof-of-work benchmark card](proof/portfolio-card.png)
+Build repeatable KPI reports from validated operational CSV exports.
 
-[![Proof](https://github.com/Milo318/automated-business-reporting-poc/actions/workflows/ci.yml/badge.svg)](https://github.com/Milo318/automated-business-reporting-poc/actions/workflows/ci.yml)
+[![Quality](https://github.com/Milo318/automated-business-reporting-poc/actions/workflows/ci.yml/badge.svg)](https://github.com/Milo318/automated-business-reporting-poc/actions/workflows/ci.yml)
 
-A proof of concept that combines payment, customer, lead, and support-ticket data into a decision-ready HTML report. Financial calculations reconcile against the input ledger, operational KPIs are repeatable, and AI can optionally narrate already-locked metrics.
+## What the current implementation guarantees
 
-**Public repository:** https://github.com/Milo318/automated-business-reporting-poc
+- Validate row identities, statuses, financial signs, finite amounts and ticket chronology.
+- Use decimal financial arithmetic and reconcile revenue against the ledger.
+- Require won leads to belong to the qualified cohort used in the conversion denominator.
+- Block publication when reconciliation fails.
+- Publish only a canonical statement derived from verified metric fields.
+- Replace incorrect or unavailable model output with the same deterministic statement.
+- Escape report text and generate both HTML and machine-readable JSON.
 
-> **Data notice:** every payment, company, lead, and support ticket is fictional mock data. The generated report visibly carries the same disclosure.
+## Run
 
-## Autonomous AI proof
-
-The upgraded workflow calculates KPI changes deterministically, selects the primary anomaly, and asks a live model to produce a grounded narrative. A numeric verifier checks the selected metric, direction, previous value, and current value before automatic publication. Failed grounding is replaced with a deterministic verified statement rather than sent for approval.
-
-The committed [live-model benchmark](proof/autonomous-benchmark.json) and [200 case-level publication decisions](proof/autonomous-cases.jsonl) were generated with `granite4.1:3b` through Ollama:
-
-> **How to read 100%:** the model alone grounded 186 of 200 narratives correctly. The final 200 of 200 result belongs to the complete system after independent numeric verification and 14 automatic replacements. Expected outcomes are used for scoring only, not supplied to the runtime controller.
-
-| Autonomous acceptance check | Result |
-|---|---:|
-| Reporting periods | 200 |
-| Raw AI narratives correctly grounded | 186 / 200 |
-| Automatic self-repairs | 14 |
-| Numeric edge-case stress periods | 100 / 100 approved |
-| Grounded publications | 200 / 200 |
-| Final system approval rate | **100%** |
-| Human approvals | **0** |
-
-```bash
-python -m business_reporting.autonomous_benchmark --cases 200 --model granite4.1:3b
-```
-
-Reproduction requires a running Ollama service with the selected model installed.
-
-Half of the suite uses near-tied KPI changes, zero or negative baselines, and completely flat periods. AI does not calculate the KPIs or choose arbitrary facts. The deterministic layer supplies the primary metric, and publication is allowed only when every numeric claim matches the locked dataset.
-
-## Proof of work
-
-The [committed benchmark](proof/benchmark.json) repeats the full metric calculation 500 times:
-
-| Check | Measured result |
-|---|---:|
-| Calculation runs | 500 |
-| Identical metric snapshots | 100% |
-| Gross revenue / refunds | €14,950 / €300 |
-| Reported net revenue | €14,650 |
-| Independent ledger sum | €14,650 |
-| Reconciliation difference | €0.00 |
-| Automated tests | 7 passing |
-
-The exact business snapshot also includes MRR, new customers, churn, lead conversion, resolved tickets, and SLA compliance. Repetition proves deterministic calculation; synthetic inputs mean these figures are demonstrations rather than business claims.
-
-### Reproduce the evidence
+Requires Python 3.11 or later.
 
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-python -m pip install -e .
-python -m unittest discover -s tests -v
+python -m pip install -e '.[dev]'
 python -m business_reporting.cli
-python -m business_reporting.benchmark --runs 500
+python -m business_reporting.cli --data /path/to/csv --output output/report.html
+python -m business_reporting.benchmark --runs 50 --output /tmp/report-benchmark.json
 ```
 
-Open `output/report.html` in any browser. The source KPI payload and reconciliation result are stored in `output/metrics.json`.
+## Scope and integration contract
 
-## How it works
+The CSV contract is demonstrated in `data/mock`: payments, customers, leads and tickets.
+Refund amounts must be negative; payment amounts nonnegative. The caller supplies a single
+reporting period's records. SLA compliance uses resolved tickets as its denominator.
+Production ingestion, period selection and accounting/CRM connectors remain separate work.
 
-```text
-Payments + customers + leads + tickets
-                  ↓
-Schema-specific loaders
-                  ↓
-Decimal financial math + operational KPI rules
-                  ↓
-Independent ledger reconciliation
-                  ↓
-Responsive HTML report + machine-readable JSON
-                  ↓ optional
-Grounded AI executive narrative
-```
+`--ai` uses `LLM_API_KEY` and optional `LLM_MODEL`/`LLM_API_URL`, plus `--previous` for the
+prior snapshot. The primary change is selected in code. Every published sentence follows
+the verified template: arbitrary model prose, unsupported causal explanations and extra
+fields are never published. The model is optional and is not needed to calculate or explain
+these four metrics. Provider failures fall back to the verified statement.
 
-### Stage 1 — deterministic core
+See [SCHEDULING.md](SCHEDULING.md) for scheduled execution.
 
-Financial values use decimal arithmetic, and net revenue is cross-checked against the ledger sum. Lead conversion and SLA compliance have explicit denominators. The same inputs produce the same metric payload and report on every run.
-
-### Stage 2 — autonomous grounded publication
-
-With `--ai`, a model receives locked KPIs and the deterministically detected primary anomaly. The numeric verifier either publishes the grounded narrative or replaces it with a verified deterministic statement. No approval queue is required.
+## Verification
 
 ```bash
-export LLM_API_KEY="..."
-python -m business_reporting.cli --ai
+ruff check .
+ruff format --check .
+python -m unittest discover -s tests -v
 ```
 
-[`SCHEDULING.md`](SCHEDULING.md) shows how to run the same command from cron or a scheduled workflow.
+CI runs these checks and a fresh deterministic benchmark on Python 3.11 and 3.13.
+Tests include malformed inputs, known regression cases and mocked provider failures.
+No credentials or live model calls are needed for the test suite. Provider responses have
+size limits, JSON-object validation and bounded retries for transient failures.
 
-## Evidence map
+## Benchmark evidence
 
-- [`data/mock/`](data/mock/) — four labeled synthetic operational datasets and a labeled previous-period KPI snapshot
-- [`tests/test_reporting.py`](tests/test_reporting.py) — financial, operational, and HTML-output assertions
-- [`proof/benchmark.json`](proof/benchmark.json) — replay and reconciliation evidence
-- [`proof/autonomous-benchmark.json`](proof/autonomous-benchmark.json) — live-model publication summary
-- [`proof/autonomous-cases.jsonl`](proof/autonomous-cases.jsonl) — all 200 publication decisions
-- [`proof/portfolio-card.png`](proof/portfolio-card.png) — portfolio-ready evidence image
-- [GitHub Actions workflow](.github/workflows/ci.yml) — repeatable checks on every push
+All bundled datasets are synthetic. `proof/benchmark.json` records a deterministic demo
+run; it does not establish performance on arbitrary customer data. The older
+`proof/autonomous-benchmark.json`, case JSONL and portfolio image are **historical v1.0.0
+artifacts**, not quality or accuracy guarantees for v1.1.0. Their archive-consistency test
+does not execute the current controller or a live model.
 
-## Production extension points
+Use the current regression suite to verify the current behavior. A fresh live-model
+benchmark is optional and requires a configured Ollama instance; none is implied by a green
+CI result. [Changes and compatibility](CHANGELOG.md).
 
-A real deployment would connect accounting, CRM, and support APIs; add freshness checks; persist historical snapshots; notify on failed reconciliation; and publish through the client's preferred scheduler and access controls.
-
-Built by **Milo Geller** · MIT licensed.
+Built by **Milo Geller** · [MIT licensed](LICENSE).

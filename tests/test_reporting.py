@@ -5,7 +5,11 @@ import unittest
 
 from business_reporting.metrics import calculate_metrics, reconciliation
 from business_reporting.report import render_report
-from business_reporting.autonomy import analyze_and_publish, primary_change
+from business_reporting.autonomy import (
+    analyze_and_publish,
+    primary_change,
+    verified_summary,
+)
 from business_reporting.autonomous_benchmark import generate_cases
 
 
@@ -36,7 +40,11 @@ class ReportingTests(unittest.TestCase):
 
     def test_grounded_ai_analysis_publishes_without_approval(self) -> None:
         case = generate_cases(1)[0]
-        proposal = {**case.truth, "summary": "Verified change", "statement_type": "verified_fact"}
+        proposal = {
+            **case.truth,
+            "summary": verified_summary(case.truth),
+            "statement_type": "verified_fact",
+        }
         outcome = analyze_and_publish(case.previous, case.current, proposal)
         self.assertTrue(outcome.approved_for_publication)
         self.assertEqual(outcome.source, "ai")
@@ -53,7 +61,9 @@ class ReportingTests(unittest.TestCase):
         cases = generate_cases(200)
         self.assertEqual(len(cases), 200)
         self.assertEqual(sum(case.challenge != "standard" for case in cases), 100)
-        self.assertEqual(cases[0].truth, primary_change(cases[0].previous, cases[0].current))
+        self.assertEqual(
+            cases[0].truth, primary_change(cases[0].previous, cases[0].current)
+        )
 
 
 if __name__ == "__main__":

@@ -11,23 +11,36 @@ def _bar(label: str, value: float, maximum: float, color: str) -> str:
     return f'<div class="bar-row"><span>{escape(label)}</span><div class="track"><div class="bar" style="width:{width:.1f}%;background:{color}"></div></div><strong>{value:,.1f}</strong></div>'
 
 
-def render_report(metrics: Metrics, destination: Path, executive_summary: str | None = None) -> None:
+def render_report(
+    metrics: Metrics,
+    destination: Path,
+    executive_summary: str | None = None,
+    *,
+    synthetic_data: bool = True,
+) -> None:
+    disclosure = (
+        "Synthetic mock data. All customers, payments, leads, and tickets in this report are fictional."
+        if synthetic_data
+        else "Report generated from the supplied operational data."
+    )
     values = metrics.to_dict()
     narrative = executive_summary or (
         f"Deterministic summary: net revenue is €{values['net_revenue']}, active MRR is €{values['active_mrr']}, "
         f"lead conversion is {values['lead_conversion_percent']}%, and SLA compliance is {values['sla_compliance_percent']}%."
     )
     cards = [
-        ("Net revenue", f"€{values['net_revenue']}"), ("Active MRR", f"€{values['active_mrr']}"),
-        ("Lead conversion", f"{values['lead_conversion_percent']}%"), ("SLA compliance", f"{values['sla_compliance_percent']}%"),
+        ("Net revenue", f"€{values['net_revenue']}"),
+        ("Active MRR", f"€{values['active_mrr']}"),
+        ("Lead conversion", f"{values['lead_conversion_percent']}%"),
+        ("SLA compliance", f"{values['sla_compliance_percent']}%"),
     ]
-    html = f"""<!doctype html><html><head><meta charset="utf-8"><title>Synthetic Operations Report</title>
+    html = f"""<!doctype html><html><head><meta charset="utf-8"><title>Operations Report</title>
 <style>body{{font-family:Inter,Arial,sans-serif;background:#f4f7fb;color:#152235;margin:0}}main{{max-width:1060px;margin:40px auto;padding:0 24px}}.eyebrow{{color:#2563eb;font-weight:700;letter-spacing:.08em}}h1{{font-size:40px;margin:8px 0}}.notice{{background:#fff3cd;border:1px solid #f0d879;padding:12px 16px;border-radius:10px}}.grid{{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:24px 0}}.card,.panel{{background:white;border-radius:16px;padding:20px;box-shadow:0 8px 30px #20305012}}.card span{{color:#65758b;font-size:13px}}.card strong{{display:block;font-size:26px;margin-top:8px}}.panels{{display:grid;grid-template-columns:1fr 1fr;gap:16px}}.bar-row{{display:grid;grid-template-columns:130px 1fr 65px;gap:10px;align-items:center;margin:18px 0}}.track{{height:12px;background:#e8edf5;border-radius:20px;overflow:hidden}}.bar{{height:100%;border-radius:20px}}footer{{color:#65758b;margin:28px 0}}@media(max-width:800px){{.grid{{grid-template-columns:1fr 1fr}}.panels{{grid-template-columns:1fr}}}}</style></head>
-<body><main><div class="eyebrow">PROOF OF CONCEPT · SEPTEMBER 2026</div><h1>Operations KPI Report</h1><p class="notice"><strong>Synthetic mock data.</strong> All customers, payments, leads, and tickets in this report are fictional.</p>
-<section class="grid">{''.join(f'<div class="card"><span>{label}</span><strong>{value}</strong></div>' for label, value in cards)}</section>
-<section class="panels"><div class="panel"><h2>Commercial funnel</h2>{_bar('Qualified leads', metrics.qualified_leads, max(metrics.qualified_leads,1), '#2563eb')}{_bar('Won leads', metrics.won_leads, max(metrics.qualified_leads,1), '#10b981')}{_bar('New customers', metrics.new_customers, max(metrics.qualified_leads,1), '#8b5cf6')}</div>
-<div class="panel"><h2>Support operations</h2>{_bar('Total tickets', metrics.tickets_total, max(metrics.tickets_total,1), '#64748b')}{_bar('Resolved', metrics.tickets_resolved, max(metrics.tickets_total,1), '#2563eb')}{_bar('Within SLA', metrics.tickets_within_sla, max(metrics.tickets_total,1), '#10b981')}</div></section>
-<section class="panel" style="margin-top:16px"><h2>Executive summary</h2><p>{escape(narrative).replace(chr(10), '<br>')}</p></section>
+<body><main><div class="eyebrow">OPERATIONS REPORT</div><h1>Operations KPI Report</h1><p class="notice">{escape(disclosure)}</p>
+<section class="grid">{"".join(f'<div class="card"><span>{label}</span><strong>{value}</strong></div>' for label, value in cards)}</section>
+<section class="panels"><div class="panel"><h2>Commercial funnel</h2>{_bar("Qualified leads", metrics.qualified_leads, max(metrics.qualified_leads, 1), "#2563eb")}{_bar("Won leads", metrics.won_leads, max(metrics.qualified_leads, 1), "#10b981")}{_bar("New customers", metrics.new_customers, max(metrics.qualified_leads, 1), "#8b5cf6")}</div>
+<div class="panel"><h2>Support operations</h2>{_bar("Total tickets", metrics.tickets_total, max(metrics.tickets_total, 1), "#64748b")}{_bar("Resolved", metrics.tickets_resolved, max(metrics.tickets_total, 1), "#2563eb")}{_bar("Within SLA", metrics.tickets_within_sla, max(metrics.tickets_total, 1), "#10b981")}</div></section>
+<section class="panel" style="margin-top:16px"><h2>Executive summary</h2><p>{escape(narrative).replace(chr(10), "<br>")}</p></section>
 <footer>Generated by the Automated Business Reporting PoC · Built by Milo Geller</footer></main></body></html>"""
     destination.parent.mkdir(parents=True, exist_ok=True)
     destination.write_text(html, encoding="utf-8")
